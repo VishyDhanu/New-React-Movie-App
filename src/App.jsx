@@ -1,10 +1,9 @@
-import "./App.css";
-// import Favorites from "./components/Favorites";
 import Favorites from "./components/Favorites";
 import MovieCard from "./components/MovieCard";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
+import "./css/index.css";
 
 function App() {
   // const movieNumber = 1;
