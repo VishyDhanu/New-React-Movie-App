@@ -2,12 +2,11 @@
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #bfbbbb;
+  background-color: #1a1a1a;
   transition: transform 0.2s;
   height: 100%;
-  display: grid;
-  grid-template-columns: 3;
-  margin: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .movie-card:hover {
